@@ -1,5 +1,5 @@
 package Algorithms;
-
+// Floyd Algorithm to find Shortest Path.
 public class Floyd2 {
     public void floyd(int n, double[][] W, double[][] D, double[][] P) {
         for (int i = 0; i < n; i++) {
